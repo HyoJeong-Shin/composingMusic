@@ -1,5 +1,4 @@
 ## children's song dataset 구하기
----
 
 1. audioset에서 eval_segments.csv 다운로드   
 2. class_labels_indices.csv에서 children's song에 해당하는 장르 코드를 찾은 후   
