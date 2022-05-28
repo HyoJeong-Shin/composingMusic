@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Making music with magenta.js</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+   These imports are needed for the CodeMirror snippets to work 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.28.0/codemirror.min.js"></script>
+  <link rel="stylesheet" href="https://js.tensorflow.org/css/vendor/codemirror.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.28.0/theme/dracula.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.28.0/mode/javascript/javascript.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.28.0/mode/xml/xml.min.js"></script>
+-->
+  <!-- This imports magenta.js on the page -->
+  <script src="https://cdn.jsdelivr.net/npm/@magenta/music@1.18.1"></script>
+
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <!--
+  <div class="content">
+    <div class="controls">
+      <button onclick="startOrStop(event, player)">Play</button>
+    </div>
+    <div class="controls">
+      <button onclick="startOrStop(event, player, DRUMS)">Play</button>
+    </div>
+
+    <div class="controls">
+      <button onclick="startOrStop(event, player)">Play</button>
+    </div>
+
+    <div class="controls">
+      <button onclick="startOrStop(event, vizPlayer)">Play</button>
+    </div>
+    <div class="canvas-container">
+      <canvas id="canvas2"></canvas>
+    </div>
+
+    <div class="controls">
+      <div style="visibility:hidden"></div>
+    </div>
+    
+    <div class="canvas-container">
+      <canvas id="canvas"></canvas>
+    </div>
+    <div class="controls">
+      <button onclick="playRNN(event)">Play</button>
+    </div>
+-->
+
+    <div class="controls">
+      <button onclick="playRNN(event)">Play</button>
+    </div>
+  
+</body>
+
+<script src="./script.js"></script>
+
+</html>
